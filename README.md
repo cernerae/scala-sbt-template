@@ -9,8 +9,9 @@ Use this repository as a template to create new Scala SBT projects with Docker P
 
 ## Getting Started
 
-1. Clone this repository
-2. Change <i>/build.properties</i> file:
+1. Create an new repository from this template repository
+2. Clone your new repository
+3. Change <i>/build.properties</i> file:
     - `project.organization` = Project Organization
     - `project.name` = Project Name
     - `project.version` = Project Version
@@ -18,4 +19,4 @@ Use this repository as a template to create new Scala SBT projects with Docker P
     - `docker.organization` = Docker Organization to publish image to
     - `docker.main-class` = Main Scala class for Docker Plugin to build
     - `docker.base-image` = Base Docker image to build from
-3. Set up for CI/CD environment
+4. Set up for CI/CD environment
